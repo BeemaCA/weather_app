@@ -1,0 +1,256 @@
+$base-color: #7d6fe6;
+$base-light: #dfe7f4;
+$base-dark: #353688;
+$txt-light: #c1c1c7;
+$txt-dark: #0d0d25;
+$txt-base: #797979;
+$base-font: "Poppins", sans-serif;
+
+.main-box {
+  padding: 60px;
+
+  .banner-image {
+    border-radius: 60px;
+
+  }
+
+  .tym {
+    text-align: center;
+    position: absolute;
+    top:200px;right: 10px;
+  }
+
+  .time{color: #fff;}
+
+  .btn-outline-secondary {
+    color: $base-color;
+    border-color: $base-color;
+    border-radius: 20px;
+
+
+}
+
+.btn-outline-secondary:hover {
+  color: #fff;
+  background-color: $base-color;
+  border-color:$base-color;
+  border-radius: 20px;
+}
+
+
+
+  .lbl-head {
+    font-family: $base-font;
+    font-size: 14px;
+  }
+
+  .frm-input {
+    border-radius: 30px;
+    font-family: $base-font;
+    font-size: 12px;
+  }
+
+  .srch-btn {
+    background: $base-color;
+    color: #fff;
+    float: left;
+    border-radius: 15px;
+    margin-left: 10px;
+    vertical-align: middle;
+  }
+
+  .card {
+    border-radius: 20px;
+    width: auto;
+    height: auto;
+    padding: 20px;
+
+    .card-body {
+      padding: 0px;
+    }
+
+    .details {
+      font-family: $base-font;
+      font-weight: 600;
+      color: $txt-base;
+      font-size: 11px;
+
+    }
+    .space {
+      padding: 10px;
+      text-align: center;
+    }
+
+    .day {
+      font-family: $base-font;
+      font-weight: 600;
+      color: $txt-base;
+      font-size: 14px;
+    }
+
+    .weather {
+      color: $txt-light;
+      font-size: 14px;
+      font-family: $base-font;
+    }
+
+    .degree {
+      height: auto;
+      padding: 15px;
+      font-family: $base-font;
+      font-weight: bold;
+      background: $base-color;
+      border-radius: 15px;
+      text-align: center;
+    }
+    .degree1 {
+      height: auto;
+      padding: 5px;
+      font-family: $base-font;
+      font-weight: 600;
+      background: $base-color;
+      border-radius: 15px;
+      text-align: center;
+      font-size: 14px;
+      color: #fff;
+    }
+  }
+
+  .place {
+    border-radius: 35px;
+    height: 250px;
+  }
+
+  .place2 {
+    border-radius: 50px;
+    height: 70px;
+  }
+
+  .place3 {
+    border-radius: 30px;
+    height: 150px;
+  }
+}
+
+h4 {
+  font-family: $base-font;
+  color: $txt-dark;
+  font-weight: 300;
+
+  .txt-bold {
+    font-size: 26px;
+    font-family: $base-font;
+    color: $txt-dark;
+    font-weight: 600;
+  }
+}
+
+.last {
+  // position: absolute;
+  // top: 420px;
+  // right: 25px;
+  .card {
+    height: auto;
+    padding: 13px;
+    border: none;
+
+    .shadow {
+      box-shadow: 0 0 20px 7px #8a84b326;
+    }
+
+    .card-body {
+      padding: 0px;
+    }
+
+    .degree {
+      height: auto;
+      padding: 10px;
+      font-family: $base-font;
+      font-weight: bold;
+      background: $base-light;
+      border-radius: 15px;
+      margin-left: 12px;
+      align-items: center;
+    }
+
+    .line {
+      border-right: 1px solid $base-light;
+      margin-left: 5px;
+    }
+
+    .main-lctn {
+      font-family: $base-font;
+      color: $txt-dark;
+      margin-left: 5px;
+    }
+
+    .sub-lctn {
+      font-family: $base-font;
+      color: $txt-light;
+      font-size: 12px;
+    }
+
+    .card-txt {
+      color: $txt-light;
+      font-family: $base-font;
+      font-size: 11px;
+      text-align: center;
+    }
+    .card-txt2 {
+      color:$txt-base;
+      font-family: $base-font;
+      font-size: 11px;
+      text-align: center;
+      font-weight: 600;
+    }
+
+    
+
+    .card2-txt {
+      color: $txt-base;
+      font-family: $base-font;
+      font-size: 13px;
+      font-weight: 600;
+    }
+  }
+  .outline {
+    border: dashed 1px $base-light;
+    height: auto;
+  }
+
+  .card {
+    .add-btn {
+      background: $base-light;
+      padding: 10px;
+      color: $base-color;
+      font-family: $base-font;
+      border-radius: 50px;
+      font-size: 12px;
+    }
+  }
+}
+
+
+.modal { font-family: $base-font;
+
+.time-txt{
+  font-family: $base-font;
+  font-size: 14px;
+
+}
+
+.time-head {
+  font-family: $base-font;
+  font-weight: 600;
+  color: $txt-base;
+  font-size: 14px;
+}
+
+.details-head{
+  font-family: $base-font;
+  font-weight: 600;
+  color: $txt-base;
+  font-size: 14px;
+}
+
+}
